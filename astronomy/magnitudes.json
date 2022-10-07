@@ -1,0 +1,9 @@
+[
+    {"id": "magnitude",
+     "requires": ["em_flux", "photometry"]
+    },
+    {"id":"photometry", 
+    "requires":["astro_filter", "em_flux", "ccd"]
+    }
+
+]
